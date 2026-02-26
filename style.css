@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    background-color:rgb(112, 24, 24);
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(104, 9, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color:aliceblue;
+}
+
+#icon{
+    width: 90;
+}
+
+#noticias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+
+.noticia{
+
+    margin: 10px;
+    background-color: black;
+    color:antiquewhite;
+    border: 5px solid rgb(253, 250, 250);
+}
+
+.img_noticia{
+    width: 500px;
+}
