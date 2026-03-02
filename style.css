@@ -38,3 +38,43 @@ nav{
 .img_noticia{
     width: 500px;
 }
+
+.parte_da_escalação h2 {
+    text-align: center;
+   
+} 
+
+.img_escalação {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#escalação {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#boneco{
+    position: fixed;
+    right: 0px;
+    bottom: -5px;
+
+    width: 200px;
+}
+
+footer{
+   padding: 5px;
+    text-align: center;
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(100, 23, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-radius: px;
+}
